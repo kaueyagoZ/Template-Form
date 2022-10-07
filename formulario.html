@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário | Kamixd$</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend style="font-weight: bold;" id="formtit">Formulário de Clientes</legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="ipt">Nome Completo</label>
+                </div>
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="ipt">Email</label>
+                </div>
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    <label for="telefone" class="ipt">Telefone</label>
+                </div>
+
+                <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Sexo:</p>
+                <input type="radio" name="genero" id="feminino" value="feminino" required>
+                <label for="feminino" class="gen">Feminino</label>
+                <br>
+                <input type="radio" name="genero" id="masculino" value="masculino" required>
+                <label for="masculino" class="gen">Masculino</label>
+                <br>
+                <input type="radio" name="genero" id="outro" value="outro" required>
+                <label for="outro" class="gen">Outro</label>
+                <br><br>
+
+                    <label for="nasc" style="font-weight: bold; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Data de Nascimento:</label>
+                    <input type="date" name="nasc" id="nasc" required>
+
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                    <label for="cidade" class="ipt">Cidade</label>
+                </div>
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <label for="estado" class="ipt">Estado</label>
+                </div>
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                    <label for="endereco" class="ipt">Endereço</label>
+                </div>
+                <br><br>
+
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>
